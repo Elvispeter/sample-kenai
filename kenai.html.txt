@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KENAI SPINE ORTHOPAEDIC AND SURGEY CENTER</title>
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>KENAI SPINE ORTHOPAEDIC AND SURGEY CENTER</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>General checkups</li>
+                <li>Medical consultations</li>
+                <li>Lab tests</li>
+                <li>X-rays and ultrasounds</li>
+                <li>Vaccinations</li>
+            </ul>
+        </section>
+
+        <section id="doctors">
+            <h2>Our Doctors</h2>
+            <ul>
+                <li>
+                    <img src="doctor1.jpg" alt="Doctor 1">
+                    <h3>Dr. John Doe</h3>
+                    <p>Specialization: General practitioner</p>
+                </li>
+                <li>
+                    <img src="doctor2.jpg" alt="Doctor 2">
+                    <h3>Dr. Jane Smith</h3>
+                    <p>Specialization: Pediatrics</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; Small Clinic 2023</p>
+    </footer>
+</body>
+
+</html>
